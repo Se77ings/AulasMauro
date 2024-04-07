@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/pagina2.dart';
+import 'package:ex1/pagina2.dart';
+import 'package:ex1/pagina3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -70,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => Pagina2(),
+          builder: (context) => Pagina3(),
         ));
   }
 
